@@ -3,10 +3,12 @@
   <head>
     <meta charset="utf-8">
     <title>title</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
   </head>
   <body>
-    <!-- page content -->
+    <form action="/student" method="post">
+      Student Name: <input type="text" name="student[name]">
+      Student Grade: <input type="text" name="student[grade]">
+      <input type="submit">
+    </form>
   </body>
 </html>
